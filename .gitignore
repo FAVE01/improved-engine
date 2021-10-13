@@ -1,0 +1,28 @@
+node_modules
+DAppNodePackage-*
+.vscode
+
+# Use yarn
+package-lock.json
+
+# Build artifacts
+dist
+
+# When testing commands with this package this files will be generated
+# Test build files
+/build
+/build_*
+dappnode_package*.json
+docker-compose.yml
+Dockerfile
+test-avatar.png
+avatar.png
+releases.json
+setup.schema.json
+setup-ui.json
+disclaimer.md
+.cache
+.dappnodesdk-build-cache
+
+# Pinata envs for testing
+.env
